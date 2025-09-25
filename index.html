@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة النسر الأبيض - الأدوية البيطرية</title>
+    <!-- Google Fonts for Arabic support -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #1f2937;
+            color: #ffffff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            max-height: 80px;
+        }
+        nav {
+            display: flex;
+        }
+        nav a {
+            color: #ffffff;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #f1f5f9;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin: 0 0 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 0 0 20px;
+        }
+        .button {
+            background-color: #1f2937;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            flex-basis: calc(33% - 20px);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #1f2937;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex-basis: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/logo.png" alt="شعار شركة النسر الأبيض">
+        </div>
+        <nav>
+            <a href="#home">الرئيسية</a>
+            <a href="#products">منتجاتنا</a>
+            <a href="#about">من نحن</a>
+            <a href="#contact">تواصل معنا</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>شركة النسر الأبيض - الأدوية البيطرية</h1>
+        <p>رواد في توزيع الأدوية البيطرية عالية الجودة</p>
+        <a class="button" href="#contact">تواصل معنا</a>
+    </section>
+
+        <section id="products">
+        <h2>منتجاتنا</h2>
+        <div class="products">
+            <!-- INVEMOULD-L -->
+            <div class="card">
+                <img src="images/products/invemould-l.jpg" alt="INVEMOULD-L" style="max-width: 100%; height: 150px; object-fit: contain;">
+                <h3>INVEMOULD‑L</h3>
+            </div>
+            <!-- CHICKTONIC -->
+            <div class="card">
+                <img src="images/products/chicktonic.png" alt="CHICKTONIC" style="max-width: 100%; height: 150px; object-fit: contain;">
+                <h3>CHICKTONIC</h3>
+            </div>
+            <!-- NUFOTOX -->
+            <div class="card">
+                <img src="images/products/nufotox.png" alt="NUFOTOX" style="max-width: 100%; height: 150px; object-fit: contain;">
+                <h3>NUFOTOX</h3>
+            </div>
+            <!-- COLISTIN SULPHATE LIQUID TREI -->
+            <div class="card">
+                <img src="images/products/colistin-sulphate-liquid-trei.png" alt="COLISTIN SULPHATE LIQUID TREI" style="max-width: 100%; height: 150px; object-fit: contain;">
+                <h3>COLISTIN SULPHATE LIQUID TREI</h3>
+            </div>
+            <!-- SUPER MINERAL ORAL LIQUID (5 L) -->
+            <div class="card">
+                <img src="images/products/super-mineral-5l.png" alt="Super Mineral Oral Liquid 5 L" style="max-width: 100%; height: 150px; object-fit: contain;">
+                <h3>Super Mineral Oral Liquid (5L)</h3>
+            </div>
+            <!-- NC‑TETRA 300 SUPER -->
+            <div class="card">
+                <img src="images/products/nc-tetra-300-super.png" alt="NC-TETRA 300 SUPER" style="max-width: 100%; height: 150px; object-fit: contain;">
+                <h3>NC‑TETRA 300 SUPER</h3>
+            </div>
+            <!-- INVEMOX 15% LA -->
+            <div class="card">
+                <img src="images/products/invemox-15-la.png" alt="INVEMOX 15% LA" style="max-width: 100%; height: 150px; object-fit: contain;">
+                <h3>INVEMOX 15% LA</h3>
+            </div>
+            <!-- UNKNOWN GREEN PRODUCT -->
+            <div class="card">
+                <img src="images/products/unknown-green.png" alt="منتج غير معروف" style="max-width: 100%; height: 150px; object-fit: contain;">
+                <h3>منتج آخر</h3>
+            </div>
+            <!-- SUPER MINERAL ORAL LIQUID (BOTTLE) -->
+            <div class="card">
+                <img src="images/products/super-mineral-bottle.png" alt="Super Mineral Oral Liquid Bottle" style="max-width: 100%; height: 150px; object-fit: contain;">
+                <h3>Super Mineral Oral Liquid (زجاجة)</h3>
+            </div>
+            <!-- NC‑ANALGIN+C -->
+            <div class="card">
+                <img src="images/products/nc-analgin-c.png" alt="NC-ANALGIN+C" style="max-width: 100%; height: 150px; object-fit: contain;">
+                <h3>NC‑ANALGIN+C</h3>
+            </div>
+        
+            <!-- NUTRIFIX -->
+            <div class="card">
+                <img src="images/products/nutrifix.png" alt="NUTRIFIX" style="max-width: 100%; height: 150px; object-fit: contain;">
+                <h3>NUTRIFIX (25 kg)</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>من نحن</h2>
+        <p>تأسست شركة النسر الأبيض للأدوية البيطرية بهدف توفير أفضل المنتجات والخدمات البيطرية. نحن ملتزمون بالجودة والابتكار، ونسعى دائمًا إلى تطوير حلول فعالة لتعزيز صحة الحيوانات. فريقنا من الخبراء يعمل على البحث وتطوير المنتجات وفق أعلى المعايير.</p>
+    </section>
+
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        <p>لأي استفسارات أو طلبات، يرجى التواصل معنا من خلال:</p>
+        <p>العنوان:ليبيا - طرابلس السبعة مقابل مثلث المشتل
+</p>
+        <p>0912183601 - 0925915590:الهاتف</p>
+        <p>البريد الإلكتروني: omarabdalkrem59@gmail.com</p>
+        <p>نرحب بجميع استفساراتكم وسنسعد بخدمتكم.</p>
+    </section>
+
+    <footer>
+        <p>© 2025 شركة النسر الأبيض للأدوية البيطرية. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>s
+</html>
